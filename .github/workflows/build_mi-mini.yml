@@ -2,8 +2,8 @@
 name: Build MI MINI
 
 on: 
-  
   repository_dispatch:
+  workflow_dispatch:
   release:
     types: [published]
   push:
